@@ -101,3 +101,11 @@ PYTHONPATH=backend .venv/bin/python -m ml.train \
 ```
 
 See `docs/MODEL_CARD.md`. The trained joblib artifact is intentionally ignored; the JSON model card is retained for review.
+
+## License and data attribution
+
+Original PHAGE-X software is released under the [MIT License](LICENSE).
+Third-party datasets and reference sequences retain their own terms. See
+[Third-party data notices](THIRD_PARTY_NOTICES.md) for source, license, and
+citation details. This repository is a research prototype and its outputs are
+not clinical recommendations.
